@@ -10,19 +10,26 @@ Crie um CRUD de municipes (Exceto deletar). O municipe tem status ativo e inativ
 
 1. Ter uma entidade relacionada chamada `Munícipe`. Essa entidade cadastra cidadãos (pessoas) dentro de um município. As
    seguintes regras devem ser seguidas:
-
-  1.1 -> Dados do munícipe: Nome completo, CPF, Email, Data nascimento, Telefone (código do pais e ddd), Foto e status.
-  1.2 -> Todos os dados do munícipe são obrigatórios;
-  1.3 -> CPF,Email devem ser válidos;
-  1.4 -> Tenha atenção a data de nascimento. Valide os casos impossíveis/improváveis de serem válidos;
-  1.5 -> Foto do munícipe deve ser tamanhos diferentes para servir vários casos.
+   
+   1.1 Dados do munícipe: `Nome completo, CPF, CNS(Cartão Nacional de Saúde), Email, Data nascimento, Telefone (código do pais e ddd), Foto e status.`
+   
+   1.2 Todos os dados do munícipe são obrigatórios;
+   
+   1.3 CPF, Email devem ser válidos;
+   
+   1.4 Tenha atenção a data de nascimento. Valide os casos impossíveis/improváveis de serem válidos;
+   
+   1.5 Foto do munícipe deve ser tamanhos diferentes para servir vários casos.
 
 2. Ter uma entidade relacionada chamada `Endereço`. Essa entidade salva o endereço relacionado ao municipe. As seguintes
    regras devem ser seguidas:
 
-   2.1 -> Campos: CEP, Logradouro, complemento, bairro, cidade, UF e codigo IBGE;
-   2.2 -> Todos os dados são obrigatórios, exceto complemento e código IBGE;
-   2.3 -> Em termos de MVC, existe apenas a Entidade relacional endereço. O restante é dispensável;
+   2.1 Campos: CEP, Logradouro, complemento, bairro, cidade, UF e codigo IBGE;
+
+   2.2 Todos os dados são obrigatórios, exceto complemento e código IBGE;
+
+   2.3 Em termos de MVC, existe apenas a Entidade relacional endereço. O restante é dispensável;
+
 
 ## Regras de negócio:
 
