@@ -15,7 +15,7 @@ Crie um CRUD de municipes (Exceto deletar). O municipe tem status ativo e inativ
    
    1.2 Todos os dados do munícipe são obrigatórios;
    
-   1.3 CPF, Email devem ser válidos;
+   1.3 `CPF, Email` devem ser válidos;
    
    1.4 Tenha atenção a data de nascimento. Valide os casos impossíveis/improváveis de serem válidos;
    
@@ -24,7 +24,7 @@ Crie um CRUD de municipes (Exceto deletar). O municipe tem status ativo e inativ
 2. Ter uma entidade relacionada chamada `Endereço`. Essa entidade salva o endereço relacionado ao municipe. As seguintes
    regras devem ser seguidas:
 
-   2.1 Campos: CEP, Logradouro, complemento, bairro, cidade, UF e codigo IBGE;
+   2.1 Campos: `CEP, Logradouro, complemento, bairro, cidade, UF e codigo IBGE`;
 
    2.2 Todos os dados são obrigatórios, exceto complemento e código IBGE;
 
