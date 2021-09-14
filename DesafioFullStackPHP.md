@@ -17,13 +17,14 @@ Pensando nisso, nosso teste para essa oportunidade, elaboramos um pequeno projet
 Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidade de criação de arquitetura, qualidade do código, validações, elaboração de layout e usabilidade.
 
 ## Diferênciais Técnicos para a vaga:
-- Experiência em desenvolvimento integrações com PHP;
+- Experiência em desenvolvimento integraçõeos entre sistemas;
+- Conhecimento na realização de testes automatizados;
 
 ## Requisitos
 
 Sua aplicação deve:
 
-- Obrigatóriamente para o desenvolvimento do Backend - `PHP` utilizar o framework CodeIgniter.
+- Obrigatóriamente para o desenvolvimento do Backend - `PHP` utilizar o framework CodeIgniter ou Laravel.
 - O Frontend fica a seu critério!
 - Deve conter uma listagem de paciente, do qual deve permitir a edição, visualização e delete de cada um dos pacientes.
 - Utilizar para banco de dados PostgreSQL;
@@ -36,6 +37,7 @@ Sua aplicação deve:
   - CPF* (com validação);
   - CNS*(Cartão nacional de saúde);
   - Endereço completo*;
+- Possuir mais de 70% de cobertura de testes (unitários).
 
 ## Material de apoio: 
 
@@ -45,12 +47,14 @@ Sua aplicação deve:
 ## Diferênciais:
   - Processo de autenticação da API;
   - Utilizar algum padrão para commits;
+  - Aplicação integrada ao coveralls ou codeclimate (ambos gratuitos para repositórios publicos)
 
 ## O que avaliamos?
 - Lógica;
 - Qualidade do código;
 - Criatividade;
 - Estrutura no github;
+- Testes realizados
 
 Fique a vontade para incluir algum diferencial em seu desafio!
 
@@ -69,6 +73,7 @@ Fique a vontade para incluir algum diferencial em seu desafio!
 A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 
 - O código do projeto;
+- O projeto deve ser entregue de forma "containerizada", com banco de dados (postgres e php), lembrando das configurações necessárias para execução dos testes
 - Um arquivo *README* que descreva o que foi feito e as etapas para rodar o projeto, caso necessário.
 - Enviar o link do repositório para o seguinte email:desenvolvimento@om30.com.br 
 - No assunto, indicar "Desafio OM30". 
