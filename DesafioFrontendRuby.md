@@ -15,7 +15,7 @@ Crie um CRUD de municipes (Exceto deletar). O municipe tem status ativo e inativ
    
    1.2 Todos os dados do munícipe são obrigatórios;
    
-   1.3 `CPF, Email` devem ser válidos;
+   1.3 `CPF, Email e CNS(https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html)` devem ser válidos;
    
    1.4 Tenha atenção a data de nascimento. Valide os casos impossíveis/improváveis de serem válidos;
    
