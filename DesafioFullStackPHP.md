@@ -37,7 +37,7 @@ Sua aplicação deve:
   - CPF* (com validação);
   - CNS*(Cartão nacional de saúde);
   - Endereço completo*;
-- Possuir mais de 70% de cobertura de testes (unitários).
+
 
 ## Material de apoio: 
 
@@ -47,14 +47,14 @@ Sua aplicação deve:
 ## Diferênciais:
   - Processo de autenticação da API;
   - Utilizar algum padrão para commits;
-  - Aplicação integrada ao coveralls ou codeclimate (ambos gratuitos para repositórios publicos)
+  - Aplicação integrada ao coveralls ou codeclimate (ambos gratuitos para repositórios publicos);
+  - Possuir mais de 70% de cobertura de testes unitários;
 
 ## O que avaliamos?
 - Lógica;
 - Qualidade do código;
 - Criatividade;
 - Estrutura no github;
-- Testes realizados
 
 Fique a vontade para incluir algum diferencial em seu desafio!
 
