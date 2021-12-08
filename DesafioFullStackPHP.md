@@ -48,7 +48,7 @@ Sua aplicação deve:
   - Processo de autenticação da API;
   - Utilizar algum padrão para commits;
   - Aplicação integrada ao coveralls ou codeclimate (ambos gratuitos para repositórios publicos);
-  - Possuir mais de 70% de cobertura de testes unitários;
+  - Possuir cobertura de testes unitários;
 
 ## O que avaliamos?
 - Lógica;
