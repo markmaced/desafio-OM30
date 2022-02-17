@@ -24,7 +24,7 @@ Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidad
 
 Sua aplicação deve:
 
-- Obrigatóriamente para o desenvolvimento do Backend - `PHP` utilizar o framework CodeIgniter ou Laravel.
+- Obrigatóriamente para o desenvolvimento do Backend - `PHP` utilizar o framework CodeIgniter.
 - O Frontend fica a seu critério!
 - Deve conter uma listagem de paciente, do qual deve permitir a edição, visualização e delete de cada um dos pacientes.
 - Utilizar para banco de dados PostgreSQL;
