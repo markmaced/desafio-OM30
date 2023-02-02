@@ -56,6 +56,7 @@ Sua aplicação deve:
   - Integrar a aplicação ao *Laravel Horizon* para o monitoramento das *queues*;
   - Utilizar o *supervisord* para o gerenciamento dos serviços necessários para o desenvolvimento e a execução do projeto;
   - Utilizar elasticsearch para busca otimizada de pacientes;
+  - Paginar a listagem de pacientes;
 
 ## O que avaliamos?
 - Lógica;
