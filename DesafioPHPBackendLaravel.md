@@ -21,6 +21,7 @@ Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidad
 - Experiência em desenvolvimento integrações entre sistemas;
 - Conhecimento na realização de testes automatizados;
 - Conhecimento em desenvolvimento de API's RESTful;
+- Conhecinhemto em Vue.js
 
 ## Requisitos
 
