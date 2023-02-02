@@ -17,7 +17,7 @@ Sua aplicação deve:
 
 -   Obrigatoriamente para o desenvolvimento do front-end usar o framework Vue.js.
 -   Deve conter uma listagem de paciente com busca, do qual deve-se permitir a listagem, adição, edição, visualização e exclusão de cada um dos pacientes.
--   Utilizar para chamadas de API *fake* as ferramentas JSON Place Holder ou Json Server.
+-   Utilizar para chamadas de API *fake* as ferramentas Json Place Holder ou Json Server.
 -   Login simplificado de usuários;
 -   Cadastro de novos pacientes, contendo os campos, respectivas validações e máscaras:  `"*" obrigatório`
     -   Foto do Paciente;
@@ -33,7 +33,7 @@ Sua aplicação deve:
 
 -   Endereço: Utilizar a API do ViaCEP -  [https://viacep.com.br/](https://viacep.com.br/)
 -   Algoritmo para validação do CNS - [https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html](https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html)
-- JSON Place Holder - [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
+- Json Place Holder - [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
 - Json Server - [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 
 ## Diferenciais:
