@@ -4,9 +4,9 @@
 <img src="logo.png" alt="Logo OM30" width="200" />
 </p>
 
-# Desafio - Vaga - Pessoa Desenvolvedora Backend PHP - Laravel
+# Desafio - Vaga - Pessoa desenvolvedora back-end PHP - Laravel
 
-Olá, bem vindo ao desafio **OM30** para a vaga Pessoa Desenvolvedora backend PHP!
+Olá, bem-vindo ao desafio **OM30** para a vaga Pessoa Desenvolvedora back-end PHP!
 
 Mais importante do que dizer quem somos, é dizer no que acreditamos. A **OM30** é uma empresa que acredita na inovação como a melhor forma de trazer qualidade de vida às pessoas.
 
@@ -27,7 +27,7 @@ Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidad
 
 Sua aplicação deve:
 
-- Obrigatoriamente para o desenvolvimento do backend utilizar o framework Laravel.
+- Obrigatoriamente para o desenvolvimento do back-end utilizar o framework Laravel.
 - Desenvolver uma listagem de pacientes, do qual deve-se permitir a edição, visualização e exclusão de cada um dos pacientes.
 - Cada paciente deve ter um endereço cadastrado em uma tabela à parte.
 - Utilizar para banco de dados PostgreSQL e Redis (Cache e Queue).
@@ -82,7 +82,7 @@ A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 - O projeto deve ser entregue de forma "containerizada", com banco de dados (postgres, redis, e php), lembrando das configurações necessárias para execução dos testes.
 - O projeto deve ter em sua pasta root, uma collection do insomnia nomeada (endpoints.json) contendo endpoints necessários para os testes e a avaliação do desafio.
 - Um arquivo *README* que descreva o que foi feito e as etapas para rodar o projeto, executar os testes e gerar o code coverage.
-- Enviar o link do repositório para o seguinte e-mail: desenvolvimento@om30.com.br 
+- Enviar o link do repositório para o seguinte e-mail: desenvolvimento@om30.com.br, rh@om30.com.br
 - No assunto, indicar "Desafio OM30 - PHP Laravel - [Seu nome]". 
 - Não esqueça de identificar o seu nome completo no corpo do e-mail também.
 
