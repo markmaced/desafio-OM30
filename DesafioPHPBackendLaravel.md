@@ -83,7 +83,7 @@ A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 - O código do projeto versionado no github em repositório público.
 - O projeto deve ser entregue de forma "containerizada", com banco de dados (postgres, redis, e php), lembrando das configurações necessárias para execução dos testes.
 - O projeto deve ter em sua pasta root, uma collection do insomnia nomeada (endpoints.json) contendo endpoints necessários para os testes e a avaliação do desafio.
-- O projeto deve ter em sua pasta root, um arquivo nomeado import.csv contento um arquivo de importação.
+- O projeto deve ter em sua pasta root, um arquivo nomeado import.csv contento o template necessário para a importação.
 - Um arquivo *README* que descreva o que foi feito e as etapas para rodar o projeto, executar os testes e gerar o code coverage.
 - Enviar o link do repositório para o seguinte e-mail: desenvolvimento@om30.com.br, rh@om30.com.br
 - No assunto, indicar "Desafio OM30 - PHP Laravel - [Seu nome]". 
