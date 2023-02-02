@@ -17,7 +17,7 @@ Sua aplicação deve:
 
 -   Obrigatoriamente para o desenvolvimento do front-end usar o framework Vue.js.
 -   Deve conter uma listagem de paciente com busca, do qual deve-se permitir a listagem, adição, edição, visualização e exclusão de cada um dos pacientes.
--   Utilizar para persistência de dados *fake* a ferramenta JSON Place Holder ou Json Server.
+-   Utilizar para chamadas de API *fake* as ferramentas JSON Place Holder ou Json Server.
 -   Login simplificado de usuários;
 -   Cadastro de novos pacientes, contendo os campos, respectivas validações e máscaras:  `"*" obrigatório`
     -   Foto do Paciente;
