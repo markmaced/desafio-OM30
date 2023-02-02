@@ -28,7 +28,7 @@ Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidad
 Sua aplicação deve:
 
 - Obrigatoriamente para o desenvolvimento do back-end utilizar o framework Laravel.
-- Desenvolver uma listagem de pacientes, do qual deve-se permitir a edição, visualização e exclusão de cada um dos pacientes.
+- Desenvolver uma listagem de pacientes com busca, do qual deve-se permitir a adição, edição, visualização e exclusão de cada um dos pacientes.
 - Cada paciente deve ter um endereço cadastrado em uma tabela à parte.
 - Utilizar para banco de dados PostgreSQL e Redis (Cache e Queue).
 - Utilizar migration, factory, faker e seeder.
@@ -54,7 +54,8 @@ Sua aplicação deve:
   - Utilizar algum padrão para commits;
   - Possuir cobertura de testes unitários de 80% do código (*PHP Unit*);
   - Integrar a aplicação ao *Laravel Horizon* para o monitoramento das *queues*;
-  - Utilizar o *supervisord* para o gerenciamento dos serviços necessários para o desenvolvimento e execução do projeto;
+  - Utilizar o *supervisord* para o gerenciamento dos serviços necessários para o desenvolvimento e a execução do projeto;
+  - Utilizar elasticsearch para busca otimizada de pacientes;
 
 ## O que avaliamos?
 - Lógica;
