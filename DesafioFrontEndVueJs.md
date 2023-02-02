@@ -16,7 +16,7 @@ Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidad
 Sua aplicação deve:
 
 -   Obrigatoriamente para o desenvolvimento do front-end usar o framework Vue.js.
--   Deve conter uma listagem de paciente, do qual deve-se permitir a listagem, adição, edição, visualização e deleção de cada um dos pacientes.
+-   Deve conter uma listagem de paciente com busca, do qual deve-se permitir a listagem, adição, edição, visualização e exclusão de cada um dos pacientes.
 -   Utilizar para persistência de dados *fake* a ferramenta JSON Place Holder.
 -   Login simplificado de usuários;
 -   Cadastro de novos pacientes, contendo os campos, respectivas validações e máscaras:  `"*" obrigatório`
@@ -27,13 +27,13 @@ Sua aplicação deve:
     -   CPF* (com validação);
     -   CNS*(cartão nacional de saúde, com validação);
     -   Endereço completo*;
-   - Implementar consultar de CEP e preenchimento de endereço automático de endereço utilizando a API do ViaCEP.
+- Implementar consultar de CEP e preenchimento de endereço automático de endereço utilizando a API do ViaCEP.
 
 ## Material de apoio:
 
 -   Endereço: Utilizar a API do ViaCEP -  [https://viacep.com.br/](https://viacep.com.br/)
 -   Algoritmo para validação do CNS - [https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html](https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html)
-- JSON Place Holder - - [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
+- JSON Place Holder - [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
 
 ## Diferenciais:
 
