@@ -15,24 +15,24 @@ Pensando nisso, nosso teste para essa oportunidade, elaboramos um pequeno projet
 
 ## Objetivo
 
-Desenvolver um cadastro de pacientes, do qual possamos testar toda sua capacidade de criação de arquitetura, qualidade do código, validações e usabilidade.
+Desenvolver uma API de cadastro de pacientes, do qual possamos testar toda sua capacidade de criação de arquitetura, qualidade do código, validações e usabilidade.
 
 ## Diferenciais técnicos para a vaga:
 - Experiência em desenvolvimento integrações entre sistemas;
 - Conhecimento na realização de testes automatizados;
-- Conhecimento em desenvolvimento de API's RESTful;
-- Conhecinhemto em Vue.js
+- Conhecimento em Vue.js (Obs: é interessante apenas sabermos se você tem conhecimento ou já trabalhou com vue, não é necessário fazer nada de front-end em seu desafio, foque em desenvolver o back-end).
 
 ## Requisitos
 
 Sua aplicação deve:
 
 - Obrigatoriamente para o desenvolvimento do back-end utilizar o framework Laravel.
+- Obrigatoriamente a API deve estar nos padrões RESTful.
 - Desenvolver uma listagem de pacientes com busca, do qual deve-se permitir a adição, edição, visualização e exclusão de cada um dos pacientes.
 - Cada paciente deve ter um endereço cadastrado em uma tabela à parte.
 - Utilizar para banco de dados PostgreSQL e Redis (Cache e Queue).
 - Utilizar migration, factory, faker e seeder.
-- Cadastro de novos pacientes, contendo os campos, respectivas validações:
+- Cadastro de novos pacientes, contendo os campos e respectivas validações (Obs: use tudo que o framework(Laravel) te oferece para não criar códigos repetidos e desnecessários):
   - Foto do Paciente;
   - Nome Completo do Paciente*;
   - Nome Completo da Mãe*;
@@ -41,7 +41,7 @@ Sua aplicação deve:
   - CNS*(cartão nacional de saúde, com validação);
   - Endereço completo, (CEP, Endereço, Número, Complemento, Bairro, Cidade e Estado)*;
  - Criar um endpoint para consulta de CEP que implemente a API do ViaCEP e faça cache (Redis) dos dados para futuras consultas.
- - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue.
+ - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue (Obs: de maneira assíncrona).
  - Utilizar docker e docker-compose para execução do projeto (queremos avaliar seu conhecimento, seja criativo e não use o Laravel Sail).
 
 
@@ -83,6 +83,7 @@ A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 - O código do projeto versionado no github em repositório público.
 - O projeto deve ser entregue de forma "containerizada", com banco de dados (postgres, redis, e php), lembrando das configurações necessárias para execução dos testes.
 - O projeto deve ter em sua pasta root, uma collection do insomnia nomeada (endpoints.json) contendo endpoints necessários para os testes e a avaliação do desafio.
+- Deixe o .env.exemple configurado de maneira que o avaliador possa apenas criar uma cópia do mesmo e rodar o projeto sem perder tempo tentando entender como configurar seu projeto.
 - O projeto deve ter em sua pasta root, um arquivo nomeado import.csv contento o template necessário para a importação.
 - Um arquivo *README* que descreva o que foi feito e as etapas para rodar o projeto, executar os testes e gerar o code coverage.
 - Enviar o link do repositório para o seguinte e-mail: desenvolvimento@om30.com.br, rh@om30.com.br
