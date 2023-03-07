@@ -44,7 +44,7 @@ Sua aplicação deve:
   - Endereço completo, (CEP, Endereço, Número, Complemento, Bairro, Cidade e Estado)*;
  - Criar um endpoint para excluir um paciente (paciente e seu endereço).
  - Criar um endpoint para consulta de CEP que implemente a API do ViaCEP e faça cache (Redis) dos dados para futuras consultas.
- - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue *assincronamente*.
+ - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue **assincronamente**.
  - Utilizar docker e docker-compose para execução do projeto (queremos avaliar seu conhecimento, seja criativo e não use o Laravel Sail).
 
 ## Diferenciais que você pode entregar no seu projeto:
