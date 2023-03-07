@@ -32,31 +32,33 @@ Sua aplicação deve:
 - Cada paciente deve ter um endereço cadastrado em uma tabela à parte.
 - Utilizar para banco de dados PostgreSQL e Redis (Cache e Queue).
 - Utilizar migration, factory, faker e seeder.
-- Cadastro de novos pacientes, contendo os campos e respectivas validações (Obs: use tudo que o framework(Laravel) te oferece para não criar códigos repetidos e desnecessários):
+- Criar um endpoint para listagem onde seja possível consultar pacientes pelo nome ou CPF.
+- Criar um endpoint para obter os dados de um único pacientes (paciente e seu endereço).
+- Criar endpoints de cadastro e atualização de paciente, contendo os campos e suas respectivas validações (Obs: use tudo que o framework(Laravel) te oferece para não criar códigos repetidos e desnecessários):
   - Foto do Paciente;
-  - Nome Completo do Paciente*;
-  - Nome Completo da Mãe*;
-  - Data de Nascimento*;
-  - CPF* (com validação);
-  - CNS*(cartão nacional de saúde, com validação);
+  - Nome Completo do Paciente;
+  - Nome Completo da Mãe;
+  - Data de Nascimento;
+  - CPF;
+  - CNS;
   - Endereço completo, (CEP, Endereço, Número, Complemento, Bairro, Cidade e Estado)*;
+ - Criar um endpoint para excluir um paciente (paciente e seu endereço).
  - Criar um endpoint para consulta de CEP que implemente a API do ViaCEP e faça cache (Redis) dos dados para futuras consultas.
- - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue (Obs: de maneira assíncrona).
+ - Criar um endpoint que faça importação de dados (pacientes) via arquivo .csv e seja processada em queue assincronamente.
  - Utilizar docker e docker-compose para execução do projeto (queremos avaliar seu conhecimento, seja criativo e não use o Laravel Sail).
 
-
-## Material de apoio: 
-
-   - Endereço: Utilizar a API do ViaCEP - https://viacep.com.br/;
-   - Algoritmo para validação do CNS (https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html);
-
-## Diferenciais:
+## Diferenciais que você pode entregar no seu projeto:
   - Utilizar algum padrão para commits;
   - Possuir cobertura de testes unitários de 80% do código (*PHP Unit*);
   - Integrar a aplicação ao *Laravel Horizon* para o monitoramento das *queues*;
   - Utilizar o *supervisord* para o gerenciamento dos serviços necessários para o desenvolvimento e a execução do projeto;
   - Utilizar elasticsearch para busca otimizada de pacientes;
   - Paginar a listagem de pacientes;
+
+## Material de apoio: 
+
+   - Endereço: Utilizar a API do ViaCEP - https://viacep.com.br/;
+   - Algoritmo para validação do CNS (https://integracao.esusab.ufsc.br/ledi/documentacao/regras/algoritmo_CNS.html);
 
 ## O que avaliamos?
 - Lógica;
