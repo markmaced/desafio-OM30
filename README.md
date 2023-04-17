@@ -30,6 +30,8 @@ Ao entrar no app, você será direcionado para a tela de login. Caso você já p
 
 Caso você ainda não tenha uma conta, clique no botão "Cadastre-se" na tela de login para criar uma nova conta.
 
+Após fazer login, você será redirecionado para a página principal do app. Nessa página, você poderá visualizar os pacientes cadastrados, adicionar novos pacientes, editar ou excluir pacientes existentes.
+
 # Tecnologias utilizadas
 
 Vue
